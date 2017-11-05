@@ -397,6 +397,14 @@
 
   /* about us */
 
+  #team {
+      padding: 0px;
+  }
+
+  #team-carousel {
+      margin-top: 20px;
+  }
+
   .team-single {
     margin-bottom: 30px;
   }
