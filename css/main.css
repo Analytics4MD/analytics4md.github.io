@@ -547,11 +547,46 @@ ul.sub-menu {
     animation: fadeInLeftBig 700ms cubic-bezier(0.190, 1.000, 0.220, 1.000) 200ms both;
 }
 
+#slide-logo-container {
+    float: right;
+    display: table;
+    height: 100%;
+}
+
+#slide-logo-inner-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 #home-slider .slider-q1 {
-    position: absolute;
-    right: 30px;
-    top: 110px;
+    position: relative;
+    float: right;
+    top: 0px;
     width: 73px;
+}
+
+#home-slider .slider-q2 {
+    position: relative;
+    float: right;
+    top: 37px;
+    width: 112px;
+    margin-right: -35px;
+}
+
+#home-slider .slider-q3 {
+    position: relative;
+    float: right;
+    top: 76px;
+    width: 74px;
+    margin-right: -112px;
+}
+
+#home-slider .slider-q4 {
+    position: relative;
+    float: right;
+    top: 76px;
+    width: 74px;
+    margin-right: -35px;
 }
 
 .animate-in .slider-q1 {
@@ -559,35 +594,14 @@ ul.sub-menu {
     animation: bounceInRight 1000ms ease-in-out 200ms both;
 }
 
-#home-slider .slider-q2 {
-    position: absolute;
-    right: 68px;
-    top: 148px;
-    width: 112px;
-}
-
 .animate-in .slider-q2 {
     -webkit-animation: fadeInLeft 500ms ease-in-out 200ms both;
     animation: fadeInLeft 500ms ease-in-out 800ms both;
 }
 
-#home-slider .slider-q3 {
-    position: absolute;
-    right: 68px;
-    bottom: 190px;
-    width: 74px;
-}
-
 .animate-in .slider-q3 {
     -webkit-animation: fadeInUp 500ms ease-in-out 1200ms both;
     animation: fadeInUp 500ms ease-in-out 1200ms both;
-}
-
-#home-slider .slider-q4 {
-    position: absolute;
-    right: 145px;
-    bottom: 190px;
-    width: 74px;
 }
 
 .animate-in .slider-q4 {
@@ -596,10 +610,10 @@ ul.sub-menu {
 }
 
 #home-slider .slider-name {
-    position: absolute;
-    right: 10px;
-    bottom: 75px;
     width: 250px;
+    float: right;
+    margin-right: -22px;
+    margin-top: -15px;
 }
 
 .animate-in .slider-name {

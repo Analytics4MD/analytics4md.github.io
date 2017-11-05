@@ -21,8 +21,6 @@
   #header .navbar-nav li ul.sub-menu li a {
     padding-left: 20px;
   }
-
-
 }
 
 /*md only*/
@@ -36,6 +34,10 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .col-sm-4.portfolio-item{
     width: 33%;
+  }
+
+  #slide-logo-container {
+      margin-top: 3%;
   }
 }
 
@@ -90,8 +92,7 @@
   }
 
   #home-slider .slide-text {
-    top: 0;
-    width: 50%;
+    width: 65%;
   }
 
   #home-slider h1 {
@@ -193,7 +194,7 @@
 @media only screen and (max-width : 768px) {
 
   h1{
-    font-size: 22px;
+    font-size: 25px;
   }
 
   h2{
@@ -277,8 +278,12 @@
     margin: 50px 20px;
   }
 
+  #home-slider h1 {
+      margin-bottom: 0px;
+  }
+
   #home-slider .main-slider {
-    height: 500px;
+    height: 350px;
   }
 
   #home-slider .slide-text {
@@ -313,6 +318,15 @@
     width: 70px;
     right: 50%;
     margin-right: -200px;
+  }
+
+  #slide-logo-container {
+      margin: auto;
+      float: none;
+  }
+
+  #slide-logo-inner-container {
+      vertical-align: bottom;
   }
 
   /*Pricing Table*/
