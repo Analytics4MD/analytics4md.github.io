@@ -45,8 +45,12 @@ a {
     transition: 300ms;
 }
 
-ul {
-    list-style: none;
+ul li {
+    color: #C03035;
+}
+
+ul li span{
+    color: #000000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -746,6 +750,10 @@ ul.sub-menu {
 .clients-logo {
     overflow: hidden;
     margin-bottom: 10px;
+}
+
+.publication {
+    margin-bottom:10px;
 }
 
 /*************************
