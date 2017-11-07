@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-18066333-8"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-18066333-8');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-18066333-8');
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,410 +29,448 @@
     <link href="css/responsive.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-        <script src="js/respond.min.js"></script>
-        <![endif]-->
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
-  </head><!--/head-->
+</head><!--/head-->
 
-  <body>
-    <header id="header">
-      <div class="container">
+<body>
+<header id="header">
+    <div class="container">
         <div class="row">
-          <div class="col-sm-12 overflow">
-            <div class="social-icons pull-right">
+            <div class="col-sm-12 overflow">
+                <div class="social-icons pull-right">
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="navbar navbar-inverse" role="banner">
+    </div>
+    <div class="navbar navbar-inverse" role="banner">
         <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-            <a class="navbar-brand" href="index.html">
-              <h1><img src="images/logos/logo-horizontal.png" width="180" alt="logo"></h1>
-            </a>
+                <a class="navbar-brand" href="index.html">
+                    <h1><img src="images/logos/logo-horizontal.png" width="180" alt="logo"></h1>
+                </a>
 
-          </div>
-        </div>
-      </div>
-    </header>
-    <!--/#header-->
-
-    <section id="home-slider">
-      <div class="container">
-        <div class="row">
-          <div class="main-slider">
-            <div class="slide-text">
-              <h1>In Situ Data Analytics for Next Generation Molecular Dynamics Workflows</h1>
             </div>
-            <div id="slide-logo-container">
-              <div id="slide-logo-inner-container">
-                <div id="slide-logo-images-container">
-                  <img src="images/slider/logo-q1.png" class="slider-q1" alt="slider image">
-                  <img src="images/slider/logo-q2.png" class="slider-q2" alt="slider image">
-                  <img src="images/slider/logo-q3.png" class="slider-q3" alt="slider image">
-                  <img src="images/slider/logo-q4.png" class="slider-q4" alt="slider image">
+        </div>
+    </div>
+</header>
+<!--/#header-->
+
+<section id="home-slider">
+    <div class="container">
+        <div class="row">
+            <div class="main-slider">
+                <div class="slide-text">
+                    <h1>In Situ Data Analytics for Next Generation Molecular Dynamics Workflows</h1>
                 </div>
-                <img src="images/slider/logo-name.png" class="slider-name" alt="slider image">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
-    </section>
-    <!--/#home-slider-->
-
-    <section id="company-information">
-      <div class="container">
-        <div class="row">
-          <div class="about-us">
-            <div class="col-lg-12 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <h1 class="bold title text-center">About Analytics4MD</h1>
-              <div class="row">
-                <div class="col-lg-12">
-                  <p>This project tackles the data challenge of data analysis of
-                    molecular dynamics simulations on the next-generation supercomputers
-                    by:
-                    <ul>
-                      <li><span>Creating new in situ methods to trace
-                        molecular events such as conformational
-                        changes, phase transitions, or binding events
-                        in molecular dynamics simulations at runtime
-                        by locally reducing knowledge on
-                        high-dimensional molecular organization into a
-                        set of relevant structural molecular
-                        properties</span></li>
-                      <li><span>Designing new data representations and
-                        extend unsupervised machine learning
-                        techniques to accurately and efficiently build
-                        an explicit global organization of structural
-                        and temporal molecular properties</span></li>
-                      <li><span>Integrating simulation and analytics into
-                        complex workflows for runtime detection of
-                        changes in structural and temporal molecular
-                        properties</span></li>
-                      <li><span>Developing new curriculum material,
-                        online courses, and online training material
-                        targeting data analytics</span></li>
-                    </ul>
-                    The project's harnessed knowledge of molecular
-                    structures' transformations at runtime can be used
-                    to steer simulations to more promising areas of
-                    the simulation space, identify the data that
-                    should be written to congested parallel file
-                    systems, and index generated data for retrieval
-                    and post-simulation analysis. Supported by this
-                    knowledge, molecular dynamics workflows such as
-                    replica exchange simulations, Markov state models,
-                    and the string method with swarms of trajectories
-                    can be executed <i>from the outside</i> (i.e.,
-                    without reengineering the molecular dynamics
-                    code).</p>
+                <div id="slide-logo-container">
+                    <div id="slide-logo-inner-container">
+                        <div id="slide-logo-images-container">
+                            <img src="images/slider/logo-q1.png" class="slider-q1" alt="slider image">
+                            <img src="images/slider/logo-q2.png" class="slider-q2" alt="slider image">
+                            <img src="images/slider/logo-q3.png" class="slider-q3" alt="slider image">
+                            <img src="images/slider/logo-q4.png" class="slider-q4" alt="slider image">
+                        </div>
+                        <img src="images/slider/logo-name.png" class="slider-name" alt="slider image">
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </section>
+    </div>
+    <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+</section>
+<!--/#home-slider-->
 
-    <section id="publications">
-      <div class="container">
+<section id="services">
+    <div class="container">
+        <div id="testimonial-container">
+            <div class="row">
+                <h1 class="padding-top bold title text-center">About Analytics4MD</h1>
+                <div class="text-center" style="padding: 20px">
+                    This project tackles the data challenge of data analysis of molecular dynamics simulations on the
+                    next-generation supercomputers by:
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <div class="media wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <div class="pull-left" style="margin-right: 10px">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fa fa-square fa-stack-2x" style="color: orangered"></i>
+                                    <i class="fa fa-angle-double-down fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="media-body">
+                                <span style="font-size: 18px">Creating new in situ methods</span>
+                                to trace molecular events such as conformational changes, phase transitions, or binding
+                                events in molecular dynamics simulations at runtime by locally reducing knowledge on
+                                high-dimensional molecular organization into a set of relevant structural molecular
+                                properties
+                            </div>
+                        </div>
+                        <div class="media wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <div class="pull-left" style="margin-right: 10px">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fa fa-square fa-stack-2x" style="color: royalblue"></i>
+                                    <i class="fa fa-cog fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="media-body">
+                                <span style="font-size: 18px">Integrating simulation and analytics into complex
+                                    workflows</span>
+                                for runtime detection of changes in structural and temporal molecular properties
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <div class="media wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <div class="pull-left" style="margin-right: 10px">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fa fa-square fa-stack-2x" style="color: yellowgreen"></i>
+                                    <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="media-body">
+                                <span style="font-size: 18px">Designing new data representations and extend unsupervised
+                                    machine learning techniques</span>
+                                to accurately and efficiently build an explicit global organization of structural and
+                                temporal molecular properties
+                            </div>
+                        </div>
+                        <div class="media wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <div class="pull-left" style="margin-right: 10px">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fa fa-square fa-stack-2x" style="color: darkslategrey"></i>
+                                    <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="media-body">
+                                <span style="font-size: 18px">Developing new curriculum material, online courses, and
+                                    online training material targeting data analytics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="padding: 20px">
+                The project's harnessed knowledge of molecular structures' transformations at runtime can be used
+                to steer simulations to more promising areas of the simulation space, identify the data that
+                should be written to congested parallel file systems, and index generated data for retrieval
+                and post-simulation analysis. Supported by this knowledge, molecular dynamics workflows such as
+                replica exchange simulations, Markov state models, and the string method with swarms of trajectories
+                can be executed <i>from the outside</i> (i.e., without reengineering the molecular dynamics
+                code)
+            </div>
+        </div><!--/#testimonial-container-->
+    </div>
+</section>
+
+<section id="publications">
+    <div class="container">
         <div class="row">
-          <div class="col-lg-12 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h1 class="bold title text-center">Selected Publications</h1>
-            <div class="row">
-              <div class="col-xs-12 col-sm-6 publication">
-                Travis Johnston, Boyu Zhang, Adam Liwo, Silvia Crivelli, Michela Taufer.
-                <b>In situ data analytics and indexing of protein trajectories.</b>
-                <i>Journal of Computational Chemistry, 38</i>
-                (16), 1419-1430, (2017).
-                <a href="https://www.ncbi.nlm.nih.gov/pubmed/28093787">[link]</a>
-              </div>
-              <div class="col-xs-12 col-sm-6 publication">
-                Travis Johnston, Boyu Zhang, Adam Liwo, Silvia Crivelli, Michela Taufer.
-                <b>It-Situ Data Analysis of Protein Folding Trajectories.</b>
-                <i>arXiv:1510.08789,</i>
-                (2015).
-                <a href="https://arxiv.org/abs/1510.08789">[link]</a>
-              </div>
+            <div class="col-lg-12 padding-top wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <h1 class="bold title text-center">Selected Publications</h1>
+                <div class="row" style="padding-top: 20px">
+                    <div class="col-xs-12 col-sm-6 publication">
+                        <i class="fa fa-file-text-o"></i>
+                        Travis Johnston, Boyu Zhang, Adam Liwo, Silvia Crivelli, Michela Taufer.
+                        <b>In situ data analytics and indexing of protein trajectories.</b>
+                        <i>Journal of Computational Chemistry, 38</i>
+                        (16), 1419-1430, (2017).
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28093787">[link]</a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 publication">
+                        <i class="fa fa-file-text-o"></i>
+                        Travis Johnston, Boyu Zhang, Adam Liwo, Silvia Crivelli, Michela Taufer.
+                        <b>It-Situ Data Analysis of Protein Folding Trajectories.</b>
+                        <i>arXiv:1510.08789,</i>
+                        (2015).
+                        <a href="https://arxiv.org/abs/1510.08789">[link]</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 publication">
+                        <i class="fa fa-file-text-o"></i>
+                        Rafael Ferreira da Silva, Rosa Filgueira, Lia Pietri, Ming Jiang, Rizos Sakellariou, Ewa
+                        Deelman.
+                        <b>A Characterization of Workflow Management Systems for Extreme-scale Applications</b>
+                        <i>Future Generation Computer Systems, 75,</i>
+                        228-238 (2017).
+                        <a href="http://www.sciencedirect.com/science/article/pii/S0167739X17302510">[link]</a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 publication">
+                        <i class="fa fa-file-text-o"></i>
+                        Michel A. Cuendet, Harel Weinstein, Michael V. LeVine.
+                        <b>The Allostery Landscape: Quantifying Thermodynamic Couplings in Biomolecular Systems</b>
+                        <i>Journal of Chemical Theory and Computation, 12</i>
+                        (12), 5758-5767, (2016).
+                        <a href="http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00841">[link]</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 publication">
+                        <i class="fa fa-file-text-o"></i>
+                        Asghar M. Razavi, George Khelashvili, Harel Weinstein.
+                        <b>A Markov State-based Quantitative Kinetic Model of Sodium Release from the Dopamine
+                            Transporter</b>
+                        <i>Scientific Reports, 7</i>
+                        (2017).
+                        <a href="https://www.nature.com/articles/srep40076">[link]</a>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-6 publication">
-                Rafael Ferreira da Silva, Rosa Filgueira, Lia Pietri, Ming Jiang, Rizos Sakellariou, Ewa Deelman.
-                <b>A Characterization of Workflow Management Systems for Extreme-scale Applications</b>
-                <i>Future Generation Computer Systems, 75,</i>
-                228-238 (2017).
-                <a href="http://www.sciencedirect.com/science/article/pii/S0167739X17302510">[link]</a>
-              </div>
-              <div class="col-xs-12 col-sm-6 publication">
-                Michel A. Cuendet, Harel Weinstein, Michael V. LeVine.
-                <b>The Allostery Landscape: Quantifying Thermodynamic Couplings in Biomolecular Systems</b>
-                <i>Journal of Chemical Theory and Computation, 12</i>
-                (12), 5758-5767, (2016).
-                <a href="http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00841">[link]</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-6 publication">
-                Asghar M. Razavi, George Khelashvili, Harel Weinstein.
-                <b>A Markov State-based Quantitative Kinetic Model of Sodium Release from the Dopamine Transporter</b>
-                <i>Scientific Reports, 7</i>
-                (2017).
-                <a href="https://www.nature.com/articles/srep40076">[link]</a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
+    </div>
+</section>
 
-    <section id="team">
-      <div class="container">
+<section id="team">
+    <div class="container">
         <div id="team-carousel" class="carousel slide wow fadeIn" data-ride="carousel" data-wow-duration="400ms"
              data-wow-delay="400ms">
-          <div class="row">
-            <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">Meet the
-              Team</h1>
-            <p class="text-center wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms">Analytics4MD is a
-              collaborative effort between the University of Delaware, the University of Southern California, and
-              the Joan and Sanford I. Weill Medical College of Cornell University.</p>
-            <div class="col-sm-2 col-xs-6">
-              <div class="team-single-wrapper">
-                <div class="team-single">
-                  <div class="person-thumb">
-                    <img src="images/about/taufer.jpg" class="img-responsive" alt="">
-                  </div>
-                  <div class="social-profile">
-                    <ul class="nav nav-pills">
-                      <li><a href="mailto:taufer@udel.edu"><i class="fa fa-envelope"></i></a></li>
-                      <li><a href="https://gcl.cis.udel.edu/personal/taufer" target="_blank"><i
-                                                                                               class="fa fa-link"></i></a></li>
-                    </ul>
-                  </div>
+            <div class="row padding-top">
+                <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">Meet the
+                    Team</h1>
+                <p class="text-center wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms">Analytics4MD is a
+                    collaborative effort between the University of Delaware, the University of Southern California, and
+                    the Joan and Sanford I. Weill Medical College of Cornell University.</p>
+                <div class="col-sm-2 col-xs-6">
+                    <div class="team-single-wrapper">
+                        <div class="team-single">
+                            <div class="person-thumb">
+                                <img src="images/about/taufer.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="social-profile">
+                                <ul class="nav nav-pills">
+                                    <li><a href="mailto:taufer@udel.edu"><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="https://gcl.cis.udel.edu/personal/taufer" target="_blank"><i
+                                            class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="person-info">
+                            <h2>Michela Taufer</h2>
+                            <p>Associate Professor in Computer and Information Sciences at U Delaware, and PI of
+                                Analytics4MD.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="person-info">
-                  <h2>Michela Taufer</h2>
-                  <p>Associate Professor in Computer and Information Sciences at U Delaware, and PI of
-                    Analytics4MD.</p>
+                <div class="col-sm-2 col-xs-6">
+                    <div class="team-single-wrapper">
+                        <div class="team-single">
+                            <div class="person-thumb">
+                                <img src="images/about/deelman.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="social-profile">
+                                <ul class="nav nav-pills">
+                                    <li><a href="mailto:deelman@isi.edu"><i
+                                            class="fa fa-envelope"></i></a></li>
+                                    <li><a href="https://deelman.isi.edu" target="_blank"><i
+                                            class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="person-info">
+                            <h2>Ewa Deelman</h2>
+                            <p>Research Professor in the Computer Science Department at University of
+                                Southern California, and co-PI of Analytics4MD.</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <!--clearfix xs every 2 to ensure uniform height in each row on mobile-->
+                <div class="clearfix visible-xs"></div>
+                <div class="col-sm-2 col-xs-6">
+                    <div class="team-single-wrapper">
+                        <div class="team-single">
+                            <div class="person-thumb">
+                                <img src="images/about/ferreiradasilva.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="social-profile">
+                                <ul class="nav nav-pills">
+                                    <li><a href="mailto:rafsilva@isi.edu"><i class="fa fa-envelope"></i></a>
+                                    </li>
+                                    <li><a href="https://www.linkedin.com/in/rafaelfsilva" target="_blank"><i
+                                            class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="http://www.rafaelsilva.com" target="_blank"><i
+                                            class="fa fa-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="person-info">
+                            <h2>Rafael Ferreira da Silva</h2>
+                            <p>Research Assistant Professor in the Computer Science Department at University of
+                                Southern California, and co-PI of Analytics4MD.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-xs-6">
+                    <div class="team-single-wrapper">
+                        <div class="team-single">
+                            <div class="person-thumb">
+                                <img src="images/about/cuendet.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="social-profile">
+                                <ul class="nav nav-pills">
+                                    <li><a href="mailto:mac2109@med.cornell.edu"><i
+                                            class="fa fa-envelope"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="person-info">
+                            <h2>Michel Cuendet</h2>
+                            <p>Instructor of Computational Biomedicine at Weill Medical College of Cornell
+                                University, and co-PI of Analytics4MD.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--clearfix xs every 2 to ensure uniform height in each row on mobile-->
+                <div class="clearfix visible-xs"></div>
+                <div class="col-sm-2 col-xs-6">
+                    <div class="team-single-wrapper">
+                        <div class="team-single">
+                            <div class="person-thumb">
+                                <img src="images/about/weinstein.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="social-profile">
+                                <ul class="nav nav-pills">
+                                    <li><a href="mailto:haw2002@med.cornell.edu"><i
+                                            class="fa fa-envelope"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="person-info">
+                            <h2>Harel Weinstein</h2>
+                            <p>Director of the Institute for Computational Biomedicine at Weill Cornell Medical
+                                College of Cornell University, and co-PI of Analytics4MD.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-xs-6">
+                    <div class="team-single-wrapper">
+                        <div class="team-single">
+                            <div class="person-thumb">
+                                <img src="images/about/estrada.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="social-profile">
+                                <ul class="nav nav-pills">
+                                    <li><a href="mailto:estrada@cs.unm.edu"><i
+                                            class="fa fa-envelope"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="person-info">
+                            <h2>Trilce Estrada</h2>
+                            <p>Assistant Professor in the Computer Science Department at the University of New
+                                Mexico, and co-PI of Analytics4MD.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-2 col-xs-6">
-              <div class="team-single-wrapper">
-                <div class="team-single">
-                  <div class="person-thumb">
-                    <img src="images/about/deelman.png" class="img-responsive" alt="">
-                  </div>
-                  <div class="social-profile">
-                    <ul class="nav nav-pills">
-                      <li><a href="mailto:deelman@isi.edu"><i
-                                                             class="fa fa-envelope"></i></a></li>
-                      <li><a href="https://deelman.isi.edu" target="_blank"><i
-                                                                              class="fa fa-link"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="person-info">
-                  <h2>Ewa Deelman</h2>
-                  <p>Research Professor in the Computer Science Department at University of
-                    Southern California, and co-PI of Analytics4MD.</p>
-                </div>
-              </div>
-            </div>
-            <!--clearfix xs every 2 to ensure uniform height in each row on mobile-->
-            <div class="clearfix visible-xs"></div>
-            <div class="col-sm-2 col-xs-6">
-              <div class="team-single-wrapper">
-                <div class="team-single">
-                  <div class="person-thumb">
-                    <img src="images/about/ferreiradasilva.png" class="img-responsive" alt="">
-                  </div>
-                  <div class="social-profile">
-                    <ul class="nav nav-pills">
-                      <li><a href="mailto:rafsilva@isi.edu"><i class="fa fa-envelope"></i></a>
-                      </li>
-                      <li><a href="https://www.linkedin.com/in/rafaelfsilva" target="_blank"><i
-                                                                                               class="fa fa-linkedin"></i></a></li>
-                      <li><a href="http://www.rafaelsilva.com" target="_blank"><i
-                                                                                 class="fa fa-link"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="person-info">
-                  <h2>Rafael Ferreira da Silva</h2>
-                  <p>Research Assistant Professor in the Computer Science Department at University of
-                    Southern California, and co-PI of Analytics4MD.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-2 col-xs-6">
-              <div class="team-single-wrapper">
-                <div class="team-single">
-                  <div class="person-thumb">
-                    <img src="images/about/cuendet.png" class="img-responsive" alt="">
-                  </div>
-                  <div class="social-profile">
-                    <ul class="nav nav-pills">
-                      <li><a href="mailto:mac2109@med.cornell.edu"><i
-                                                                     class="fa fa-envelope"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="person-info">
-                  <h2>Michel Cuendet</h2>
-                  <p>Instructor of Computational Biomedicine at Weill Medical College of Cornell
-                    University, and co-PI of Analytics4MD.</p>
-                </div>
-              </div>
-            </div>
-            <!--clearfix xs every 2 to ensure uniform height in each row on mobile-->
-            <div class="clearfix visible-xs"></div>
-            <div class="col-sm-2 col-xs-6">
-              <div class="team-single-wrapper">
-                <div class="team-single">
-                  <div class="person-thumb">
-                    <img src="images/about/weinstein.png" class="img-responsive" alt="">
-                  </div>
-                  <div class="social-profile">
-                    <ul class="nav nav-pills">
-                      <li><a href="mailto:haw2002@med.cornell.edu"><i
-                                                                     class="fa fa-envelope"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="person-info">
-                  <h2>Harel Weinstein</h2>
-                  <p>Director of the Institute for Computational Biomedicine at Weill Cornell Medical
-                    College of Cornell University, and co-PI of Analytics4MD.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-2 col-xs-6">
-              <div class="team-single-wrapper">
-                <div class="team-single">
-                  <div class="person-thumb">
-                    <img src="images/about/estrada.jpg" class="img-responsive" alt="">
-                  </div>
-                  <div class="social-profile">
-                    <ul class="nav nav-pills">
-                      <li><a href="mailto:estrada@cs.unm.edu"><i
-                                                                class="fa fa-envelope"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="person-info">
-                  <h2>Trilce Estrada</h2>
-                  <p>Assistant Professor in the Computer Science Department at the University of New
-                    Mexico, and co-PI of Analytics4MD.</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
         <div class="row">
-          <div class="item">
-            <div class="col-sm-2 col-xs-6">
-              <div class="team-single-wrapper">
-                <div class="team-single">
-                  <div class="person-thumb">
-                    <img src="images/about/johnston.jpg" class="img-responsive" alt="">
-                  </div>
-                  <div class="social-profile">
-                    <ul class="nav nav-pills">
-                      <li><a href="mailto:travisj@udel.edu"><i
-                                                              class="fa fa-envelope"></i></a></li>
-                    </ul>
-                  </div>
+            <div class="item">
+                <div class="col-sm-2 col-xs-6">
+                    <div class="team-single-wrapper">
+                        <div class="team-single">
+                            <div class="person-thumb">
+                                <img src="images/about/johnston.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="social-profile">
+                                <ul class="nav nav-pills">
+                                    <li><a href="mailto:travisj@udel.edu"><i
+                                            class="fa fa-envelope"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="person-info">
+                            <h2>Travis Johnston</h2>
+                            <p>Postdoctoral researcher at Oak Ridge National Laboratory.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="person-info">
-                  <h2>Travis Johnston</h2>
-                  <p>Postdoctoral researcher at Oak Ridge National Laboratory.</p>
+                <div class="col-sm-2 col-xs-6">
+                    <div class="team-single-wrapper">
+                        <div class="team-single">
+                            <div class="person-thumb">
+                                <img src="images/about/razavi.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="social-profile">
+                                <ul class="nav nav-pills">
+                                    <li><a href="mailto:asr2013@med.cornell.edu"><i
+                                            class="fa fa-envelope"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="person-info">
+                            <h2>Asghar Razavi</h2>
+                            <p>Postdoctoral Associate in Physiology and Biophysics at Weill Cornell Medical
+                                College of Cornell University.</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <!--clearfix xs every 2 to ensure uniform height in each row on mobile-->
+                <div class="clearfix visible-xs"></div>
+                <div class="col-sm-2 col-xs-6">
+                    <div class="team-single-wrapper">
+                        <div class="team-single">
+                            <div class="person-thumb">
+                                <img src="images/about/do.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="social-profile">
+                                <ul class="nav nav-pills">
+                                    <li><a href="mailto:tudo@isi.edu"><i
+                                            class="fa fa-envelope"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="person-info">
+                            <h2>Tu Mai Anh Do</h2>
+                            <p>Graduate research assistant at the University of Southern California.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-2 col-xs-6">
-              <div class="team-single-wrapper">
-                <div class="team-single">
-                  <div class="person-thumb">
-                    <img src="images/about/razavi.png" class="img-responsive" alt="">
-                  </div>
-                  <div class="social-profile">
-                    <ul class="nav nav-pills">
-                      <li><a href="mailto:asr2013@med.cornell.edu"><i
-                                                                     class="fa fa-envelope"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="person-info">
-                  <h2>Asghar Razavi</h2>
-                  <p>Postdoctoral Associate in Physiology and Biophysics at Weill Cornell Medical
-                    College of Cornell University.</p>
-                </div>
-              </div>
-            </div>
-            <!--clearfix xs every 2 to ensure uniform height in each row on mobile-->
-            <div class="clearfix visible-xs"></div>
-            <div class="col-sm-2 col-xs-6">
-              <div class="team-single-wrapper">
-                <div class="team-single">
-                  <div class="person-thumb">
-                    <img src="images/about/do.jpg" class="img-responsive" alt="">
-                  </div>
-                  <div class="social-profile">
-                    <ul class="nav nav-pills">
-                      <li><a href="mailto:tudo@isi.edu"><i
-                                                          class="fa fa-envelope"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="person-info">
-                  <h2>Tu Mai Anh Do</h2>
-                  <p>Graduate research assistant at the University of Southern California.</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <!--/#team-->
+    </div>
+</section>
+<!--/#team-->
 
-    <footer id="footer">
-      <div class="container">
+<footer id="footer">
+    <div class="container">
         <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-text text-center">
-              <p>&copy; 2017 Analytics4MD. All Rights Reserved.</p>
-              <p>Analytics4MD is funded by the National Science Foundation (NSF) under grants number <a
-                                                                                                       href="https://nsf.gov/awardsearch/showAward?AWD_ID=1741057" target="_blank">1741057</a>,
-                <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1740990" target="_blank">1740990</a>,
-                and
-                <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1741040" target="_blank">1741040</a>.
-                Any opinions, findings, and conclusions or recommendations expressed in this material are those
-                of the author(s) and do not necessarily reflect the views of the National Science Foundation.
-              </p>
+            <div class="col-sm-12">
+                <div class="copyright-text text-center">
+                    <p>&copy; 2017 Analytics4MD. All Rights Reserved.</p>
+                    <p>Analytics4MD is funded by the National Science Foundation (NSF) under grants number <a
+                            href="https://nsf.gov/awardsearch/showAward?AWD_ID=1741057" target="_blank">1741057</a>,
+                        <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1740990" target="_blank">1740990</a>,
+                        and
+                        <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1741040" target="_blank">1741040</a>.
+                        Any opinions, findings, and conclusions or recommendations expressed in this material are those
+                        of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+                    </p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </footer>
-    <!--/#footer-->
+    </div>
+</footer>
+<!--/#footer-->
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lightbox.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
-  </body>
+</body>
 </html>
