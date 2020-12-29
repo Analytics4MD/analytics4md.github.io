@@ -1,0 +1,8 @@
+# Site settings
+title: Analytics4MD
+
+exclude:
+  - .jekyll-cache
+  - .idea
+  - README.md
+  - LICENSE
